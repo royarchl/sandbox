@@ -1,3 +1,6 @@
+#ifndef CIRCULAR_BUFFER_H
+#define CIRCULAR_BUFFER_H
+
 #include <array>
 #include <iostream>
 #include <ostream>
@@ -51,3 +54,5 @@ class CircularBuffer {
     }
   }
 };
+
+#endif  // CIRCULAR_BUFFER_H
